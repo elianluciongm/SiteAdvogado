@@ -1,0 +1,68 @@
+.navbar {
+  min-height: 60px;
+}
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+.background-section {
+  height: calc(100vh - 120px); /* Altura da viewport menos as duas navbars */
+  background-image: url('imgs/bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.background-section2 {
+    height: calc(100vh - 120px); /* Altura da viewport menos as duas navbars */
+    background-color: #352516;
+    background-size: cover;
+    background-position: center;
+  }
+
+.icone2 img{
+    height: 200px;
+    width: 200px;
+}
+
+.card-container {
+  margin-top: 20px;
+}
+body {
+    font-family: 'Times New Roman', serif !important;
+}
+.card {
+margin-bottom: 20px; 
+background-color: #000000;
+}
+
+.card:hover {
+transform: scale(1.04);
+transition: transform 0.3s ease;
+}
+
+.card-shadow {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card-shadow:hover {
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.5); 
+  transform: translateY(-5px); 
+}
+
+.navbar2 .nav-link:hover {
+    color: black !important; /* Altera a cor para preto */
+    transition: color 0.3s ease; /* Adiciona uma transição suave */
+}
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+footer {
+  background-color: #6C4C2C;
+  color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
